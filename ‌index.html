@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 300px;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  
+    <form action="./login.html" style="text-align: center;">
+    <fieldset>
+        <legend><mark> SignUp form </mark></legend>
+        <label for="text">Enter full name:</label><br>
+        <input type="fname" id="fname" name="fname"><br><br>
+
+        <label for="email">email address:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">password:</label><br>
+        <input type="password" id="password" name="password" pattern="[a-2A-2]{3,7}" title="accepts lowercase/uppercase with min of 3 and max of 7"><br><br>
+
+        <label for="password">Re-enter pass:</label><br>
+        <input type="Re-enter pass" id="Re-enter pass" name="Re-enter pass"><br><br>
+
+        <label for="text">Mobile no:</label><br>
+        <input type="mobileno" id="mobileno" name="mobileno"><br><br>
+
+        <input type="submit" value="signup" style="color:white; background-color: orangered;"><br><br>
+        
+        <label for="text">aready have an account!</label><br>
+        <input type="submit" value="login" formaction="./login.html" style="color:white; background-color: orangered;">
+        
+          
+        </form></p>
+
+    </fieldset>
+  </form>
+</body>
+</html>
